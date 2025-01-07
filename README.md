@@ -9,3 +9,13 @@ This project translates APA102 clock and data signals to work for the P9813 chip
 
 
 ![Alt text](logic_screenshot.jpg?raw=true "Conversion")
+
+
+PiPico Connections:
+- VBUS (40) --> 5V
+- GND (38) --> GND
+- 3V3 (36) --> Level Shifter Low PWR
+- GP27 (32) --> p9813 Data
+- GP26 (31) --> p9813 Clock
+- GP19-I2C1SCL (25) --> PixelBlaze Clock
+- GP18-I2C1SDA (24) --> PixelBlaze Data
